@@ -1,4 +1,4 @@
-# Azlan Form Builder
+# WriteSea Form Builder
 
 AFB is a ReactJS Form Builder plugin that is easy to integrate in any react app. It also supports drag and drop updates of form elements.
 
