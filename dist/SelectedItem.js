@@ -42,6 +42,9 @@ var options = {
   },
   list: {
     inDropdown: true
+  },
+  link: {
+    defaultTargetOption: "_blank"
   }
 };
 
@@ -115,12 +118,7 @@ var Component = function Component(props) {
     className: "afb-label"
   }, "Text"), item.type === "paragraph" ? /*#__PURE__*/_react["default"].createElement(_reactDraftWysiwyg.Editor, {
     editorState: editorState,
-    toolbar: {
-      link: {
-        defaultTargetOption: "_blank"
-      },
-      options: options
-    },
+    toolbar: options,
     toolbarClassName: "toolbarClassName",
     wrapperClassName: "wrapperClassName",
     editorClassName: "editorClassName",

@@ -10,6 +10,7 @@ const options = {
 	options: ["inline", "list", "link", "embedded", "image", "emoji"],
 	inline: { inDropdown: true },
 	list: { inDropdown: true },
+	link: { defaultTargetOption: "_blank"},
 };
 
 const Component = props => {
@@ -89,12 +90,7 @@ const Component = props => {
 							{item.type === "paragraph" ?
 								<Editor
 									editorState={editorState}
-									toolbar={{
-										link: {
-											defaultTargetOption: "_blank",
-										},
-										options
-									}}
+									toolbar={options}
 									toolbarClassName="toolbarClassName"
 									wrapperClassName="wrapperClassName"
 									editorClassName="editorClassName"
