@@ -16,14 +16,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/aliazlan4/azlan-form-builder.git"
+		"url": "git+https://github.com/brandresumes/form-builder"
 	},
 	"author": "Hanzla Ramey",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/aliazlan4/azlan-form-builder/issues"
+		"url": "https://github.com/brandresumes/form-builder/issues"
 	},
-	"homepage": "https://github.com/aliazlan4/azlan-form-builder#readme",
+	"homepage": "https://github.com/brandresumes/form-builder/blob/main/README.md",
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.15.3",
 		"draft-js-export-html": "^1.4.1",

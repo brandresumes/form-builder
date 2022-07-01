@@ -9,13 +9,13 @@ AFB is a ReactJS Form Builder plugin that is easy to integrate in any react app.
 Use the package manager [npm](https://www.npmjs.com) to install.
 
 ```bash
-npm install azlan-form-builder
+npm install writesea-form-builder
 ```
 
 ## Usage
 
 ```nodejs
-import FormBuilder from "azlan-form-builder";
+import FormBuilder from "writesea-form-builder";
 
 /// then use it as
 
