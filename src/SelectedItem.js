@@ -89,7 +89,12 @@ const Component = props => {
 							{item.type === "paragraph" ?
 								<Editor
 									editorState={editorState}
-									toolbar={options}
+									toolbar={{
+										link: {
+											defaultTargetOption: "_blank",
+										},
+										options
+									}}
 									toolbarClassName="toolbarClassName"
 									wrapperClassName="wrapperClassName"
 									editorClassName="editorClassName"

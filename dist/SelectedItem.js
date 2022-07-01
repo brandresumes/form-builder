@@ -115,7 +115,12 @@ var Component = function Component(props) {
     className: "afb-label"
   }, "Text"), item.type === "paragraph" ? /*#__PURE__*/_react["default"].createElement(_reactDraftWysiwyg.Editor, {
     editorState: editorState,
-    toolbar: options,
+    toolbar: {
+      link: {
+        defaultTargetOption: "_blank"
+      },
+      options: options
+    },
     toolbarClassName: "toolbarClassName",
     wrapperClassName: "wrapperClassName",
     editorClassName: "editorClassName",
