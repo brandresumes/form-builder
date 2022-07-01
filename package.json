@@ -1,5 +1,5 @@
 {
-	"name": "azlan-form-builder",
+	"name": "writesea-form-builder",
 	"version": "1.1.0",
 	"description": "A ReactJS Form Builder Library",
 	"main": "dist/index.js",
@@ -18,7 +18,7 @@
 		"type": "git",
 		"url": "git+https://github.com/aliazlan4/azlan-form-builder.git"
 	},
-	"author": "Ali Azlan",
+	"author": "Hanzla Ramey",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/aliazlan4/azlan-form-builder/issues"
